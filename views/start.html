@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Time Entry</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!--Google Font - Work Sans-->
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<form method="POST">
+<div class="container">
+  <div class="profile">
+    <button class="profile__avatar" id="toggleProfile">
+     <img src="user.jpg" alt="Avatar" />
+    </button>
+    <div class="profile__form">
+      <div class="profile__fields">
+        <div class="field">
+          <input type="text" id="fieldUser" name="username" class="input" required pattern=.*\S.* />
+          <label for="fieldUser" class="label">Username</label>
+        </div>
+        <div class="field">
+          <input type="password" id="fieldPassword" name="pass" class="input" required pattern=.*\S.* />
+          <label for="fieldPassword" class="label">Password</label>
+        </div>
+        <div class="profile__footer">
+          <input type='Submit' class="btn" value='Register'>
+        </div>
+      </div>
+     </div>
+  </div>
+</div>
+</form>>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
