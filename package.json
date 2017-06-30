@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "nightmare": "^2.10.0",
+    "nightmare-iframe": "^1.0.2",
     "nightmare-iframe-manager": "0.0.4",
     "body-parser": "^1.16.1",
   "hogan-express": "^0.5.2",
